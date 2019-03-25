@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class programa {
 
+
    //añadido desde pruebba
 
 	//Comentario añadido desde rama development
@@ -11,6 +12,9 @@ public class programa {
 	//AUTOMATA CON BUCLES INFINITOS ESTADO/S FINAL/ES
 
     //DEVUELVE LOS ESTADOS QUE SE PUEDEN VER AFECTADOS POR UN ESTADO NO ACCESIBLE
+
+
+	//Comentario añadido desde 'feature/addComment'
 
     public static ArrayList<Integer> outputsNoAccesibles(int transiciones[][][], int ENTRADAS,int ESTADOS, int inaccesible) {
 
