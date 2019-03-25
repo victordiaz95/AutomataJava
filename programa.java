@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class programa {
 	//Comentario añadido desde 'feature/addComment'
-    //DEVUELVE LOS ESTADOS QUE SE PUEDEN VER AFECTADOS POR UN ESTADO NO ACCESIBLE
     public static ArrayList<Integer> outputsNoAccesibles(int transiciones[][][], int ENTRADAS,int ESTADOS, int inaccesible) {
 
         ArrayList<Integer> salidas=new ArrayList<>();
