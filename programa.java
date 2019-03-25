@@ -3,7 +3,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class programa {
-//añadido desde pruebba
+
+   //añadido desde pruebba
+
+	//Comentario añadido desde rama development
+
+	//AUTOMATA CON BUCLES INFINITOS ESTADO/S FINAL/ES
+
+    //DEVUELVE LOS ESTADOS QUE SE PUEDEN VER AFECTADOS POR UN ESTADO NO ACCESIBLE
+
     public static ArrayList<Integer> outputsNoAccesibles(int transiciones[][][], int ENTRADAS,int ESTADOS, int inaccesible) {
 
         ArrayList<Integer> salidas=new ArrayList<>();
